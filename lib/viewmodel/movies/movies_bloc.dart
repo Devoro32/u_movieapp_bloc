@@ -2,6 +2,7 @@ import 'package:u_movieapp_bloc/export.dart';
 part 'movies_event.dart';
 part 'movies_state.dart';
 
+//!95
 class MoviesBloc extends Bloc<MoviesEvent, MoviesState> {
   MoviesBloc() : super(MoviesInitial()) {
     on<FetchMoviesEvent>(_onFetchMovies);
